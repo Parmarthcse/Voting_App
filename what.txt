@@ -1,0 +1,34 @@
+voting application
+what??
+a functionality where user can give vote
+
+models?
+Router?
+
+voting app functionality
+1.user signup 
+user sign in
+
+2. see the list of candidates
+3. vote one of the candidates,after voting cant vote again
+4.there is a route which shows the list of candidates and their live vote counts sorted by their vote counts
+5.user must contaion any goverment id : adhar card no
+6. there should be one admin which maintain the vote he cant able to vote
+7. user can change their password
+_________________________________________________________________________________
+Routes
+user authentictaion 
+/signup/login oth are post [aadhar no + password]
+
+voting:
+/candidates goverment/vote/:candiadate
+
+/vote coount get - get the list and count of votes
+
+/user profile
+profile getprof/passwoord PUT 
+
+ADMIN CANDIDATE MANAGEMEHNT
+/candidate POST - create a new candidate
+update 
+candidate id
